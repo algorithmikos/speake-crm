@@ -1,0 +1,32 @@
+.sidebar-item {
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar-item .MuiListItemIcon-root {
+  margin-right: 10px;
+  color: #3caa9a;
+}
+
+.sidebar-item .MuiListItemText-root .MuiTypography-root {
+  margin-left: 10px;
+  font-family: "DIN Next LT Pro Regular" !important;
+}
+
+.active-sidebar-item li {
+  color: white;
+  background-color: #3caa9a;
+}
+
+.active-sidebar-item .MuiListItemIcon-root {
+  color: white !important;
+}
+
+.active-sidebar-item:hover li {
+  color: white;
+  background-color: #39a091;
+}
+
+.active-sidebar-item:hover .MuiListItemIcon-root {
+  color: white;
+}

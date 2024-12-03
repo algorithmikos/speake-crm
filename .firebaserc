@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "speak-english-teaching",
+    "speak-e": "speak-english-teaching"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}

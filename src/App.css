@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Lateef&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pirata+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+
+@font-face {
+  font-family: "DIN Next LT Pro Regular";
+  src: url("includes/style/fonts/next/93a467f70a3e7b27a9b52a686f351dbe.eot");
+  src: url("includes/style/fonts/next/93a467f70a3e7b27a9b52a686f351dbe.eot?#iefix")
+      format("embedded-opentype"),
+    url("includes/style/fonts/next/93a467f70a3e7b27a9b52a686f351dbe.woff")
+      format("woff"),
+    url("includes/style/fonts/next/93a467f70a3e7b27a9b52a686f351dbe.woff2")
+      format("woff2"),
+    url("includes/style/fonts/next/93a467f70a3e7b27a9b52a686f351dbe.ttf")
+      format("truetype"),
+    url("includes/style/fonts/next/93a467f70a3e7b27a9b52a686f351dbe.svg#DIN Next LT Pro Regular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: "DIN Next LT Pro Regular", "Cairo";
+}
+
+body {
+  background-color: #f7f7f7;
+  /* background-color: white; */
+}
+
+.App {
+  text-align: center;
+}
+
+.speake-container {
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  min-width: 75%;
+  max-width: 90%;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-shadow: 5px 5px 25px 5px rgba(144, 142, 142, 0.5);
+}
+
+.test {
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+.cos-btn {
+  font-weight: bold;
+  align-self: center;
+  text-align: center;
+  margin: 1%;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(15, 189, 233);
+  color: white;
+  border: 2px solid rgb(15, 189, 233);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+}
+
+.cos-btn:hover {
+  box-shadow: 3px 1px 20px rgba(0, 0, 0, 0.211);
+}
+
+.label-font {
+  font-weight: bold;
+  /* font-family: sans-serif; */
+}
+
+.student-card-container {
+  max-height: 600px; /* Set the maximum height for the student cards container */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.assignment-preview-container {
+  max-height: 600px; /* Set the maximum height for the assignment preview container */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.exam-preview-container {
+  max-height: 600px; /* Set the maximum height for the assignment preview container */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.rounded-table {
+  border-radius: 5px;
+  overflow: hidden; /*Ensurestheborder-radiusisappliedtothetable*/
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.rounded-table th,
+.rounded-table td {
+  border-radius: 0; /* Reset the border-radius for table cells */
+}
+
+.inside {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.aws-btn {
+  --button-default-height: 57px;
+  --button-default-font-size: 17px;
+  --button-default-border-radius: 8px;
+  --button-horizontal-padding: 32px;
+  --button-raise-level: 6px;
+  --button-hover-pressure: 2.5;
+  --transform-speed: 0.185s;
+  --button-primary-color: #1e88e5;
+  --button-primary-color-dark: #1360a4;
+  --button-primary-color-light: #ffffff;
+  --button-primary-color-hover: #187bd1;
+  --button-primary-color-active: #166dba;
+  --button-primary-border: none;
+  --button-secondary-color: #f2f6f9;
+  --button-secondary-color-dark: #1360a4;
+  --button-secondary-color-light: #1e88e5;
+  --button-secondary-color-hover: #e1eaf1;
+  --button-secondary-color-active: #cfdee9;
+  --button-secondary-border: 2px solid #1e88e5;
+  --button-anchor-color: #0e4f88;
+  --button-anchor-color-dark: #072743;
+  --button-anchor-color-light: #ffffff;
+  --button-anchor-color-hover: #0d4a7f;
+  --button-anchor-color-active: #0c4271;
+  --button-anchor-border: none;
+  --button-danger-color: #c42e2e;
+  --button-danger-color-dark: #861f1f;
+  --button-danger-color-light: #ffffff;
+  --button-danger-color-hover: #bc2c2c;
+  --button-danger-color-active: #af2929;
+  --button-danger-border: none;
+}
+
+.aws-btn-s {
+  --button-default-height: 45px;
+  --button-default-font-size: 15px;
+  --button-default-border-radius: 8px;
+  --button-horizontal-padding: 25px;
+  --button-raise-level: 6px;
+  --button-hover-pressure: 2.5;
+  --transform-speed: 0.185s;
+}
+
+.sm-button {
+  --button-primary-color: #3a3a3a;
+  --button-primary-color-dark: #141414;
+  --button-primary-color-light: #fbfbfb;
+  --button-primary-color-hover: #2d2d2d;
+  --button-primary-color-active: #212121;
+  --button-primary-border: 2px solid #3a3a3a;
+}
+
+#search-field {
+  width: 25%;
+}
+
+#speake-nav-list {
+  justify-content: center;
+}
+
+#speake-nav-toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Your mobile-specific styles go here */
+  /* For example, you can change the font size, margins, or padding */
+  #search-field {
+    width: 100%;
+  }
+
+  #speake-nav-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #speake-nav-toggle {
+    display: inline;
+  }
+}
+
+.navbar-nav .nav-item.active .nav-link {
+  font-weight: bold;
+}
+
+.student-card {
+  box-shadow: 5px 5px 25px 5px rgba(144, 142, 142, 0.3);
+}
+
+.student-card:hover {
+  box-shadow: 5px 5px 25px 5px rgba(144, 142, 142);
+}
+
+.green {
+  background-color: rgb(205, 231, 205);
+}
+
+.green:hover {
+  background-color: rgb(157, 212, 157) !important;
+}
+
+.red {
+  background-color: rgb(226, 146, 140);
+}
+
+.red:hover {
+  background-color: rgb(143, 34, 26) !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.app-font {
+  font-family: "DIN Next LT Pro Regular", "Cairo" !important;
+}
+
+.evenRow {
+  background-color: white; /* Lighter color */
+}
+
+.oddRow {
+  background-color: #f5f5f5; /* Darker color */
+}

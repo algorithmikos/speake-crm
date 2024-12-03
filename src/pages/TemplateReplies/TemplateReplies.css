@@ -1,0 +1,12 @@
+.reply-title .MuiTypography-root,
+.reply-text {
+  font-family: Cairo;
+}
+
+.Toastify__toast-body > div:last-child {
+  font-family: "DIN Next LT Pro Regular", "Cairo" !important;
+}
+
+.toast-bg {
+  background-color: #457266;
+}
